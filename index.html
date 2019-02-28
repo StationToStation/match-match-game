@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Match-match game</title>
+  <link href="css/style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="img/icon.png" />
+</head>
+<body>
+  <div class="wrapper">
+    <aside class="difficulty">
+      <h2>Game difficulty</h2>
+      <ul>
+        <li><button>easy<br>5 x 2</button></li>
+        <li><button>medium<br>6 x 3</button></li>
+        <li><button>hard<br>8 x 3</button></li>
+      </ul>
+    </aside>
+    <aside class="backs">
+      <h2>Card backs</h2>
+      <button class="checked"><img src="img/backs/back1.png" alt="Card back 1"></button>
+      <button><img src="img/backs/back2.png" alt="Card back 2"></button>
+      <button><img src="img/backs/back3.png" alt="Card back 3"></button>
+      <button><img src="img/backs/back4.png" alt="Card back 4"></button>
+    </aside>
+    <section>
+      <h1>Can you distinguish the logos of black metal bands?</h1>
+      <h2>How to play</h2>
+      <p>Memory is a counter game where the object is to find pairs.<br>When the game begins, all pictures are hidden.</p>
+      <h2>To play</h2>
+      <ol>
+        <li>Select two cards to try to match the pictures.</li>
+        <li>If you match the pictures you cam go again.</li>
+        <li>If they don't match it's the computer turn them</li>
+        <li>The player that find all pairs wins!</li>
+        <li>Have fun!</li>
+      </ol>
+      <button id="showForm">PLAY</button>    
+    </section>
+    <form>
+      <h2>Tell us about yourself</h2>
+      <input name="FirstName" type="text" placeholder="First Name" size="25" maxlength="30" value="" autofocus>
+      <input name="LastName" type="text" placeholder="Last Name" size="25" maxlength="30" value="" />
+      <input name="email" type="email" placeholder="Email" size="25" maxlength="30" value="" />
+      <a href="game.html">PLAY</a>
+    </form>
+  </div>
+  <script src="js/script.js"></script>
+</body>

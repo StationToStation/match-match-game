@@ -1,0 +1,217 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: url("../img/menu_background.png") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  background: rgba(255, 255, 255, 0.685);
+  text-align: center;
+  border-radius: 10px;  
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: fit-content;
+}
+
+.container {
+  display: inline-block;
+  width:9.4%;
+  height: 206px;
+  position: relative;
+  perspective: 800px; 
+}
+
+.difficulty0 {
+  margin: 1.5% 4%;
+}
+
+.difficulty1 {
+  margin: 1.5% 3%;
+}
+
+.difficulty2 {
+  margin: 1.5% 1%;
+}
+
+.card {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s, opacity 0.3s, visibility 0.3s linear 0.3s;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition-delay: 0.3s;
+}
+
+.card figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.card .front0 {
+  background: url(../img/cards/card1.png) no-repeat black;
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .front1 {
+  background: url(../img/cards/card2.png) no-repeat black;
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .front2 {
+  background: url(../img/cards/card3.png) no-repeat black;
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .front3 {
+  background: url(../img/cards/card4.png) no-repeat black;  
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .front4 {
+  background: url(../img/cards/card5.png) no-repeat black;  
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .front5 {
+  background: url(../img/cards/card6.png) no-repeat black;
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .front6 {
+  background: url(../img/cards/card7.png) no-repeat black;
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .front7 {
+  background: url(../img/cards/card8.png) no-repeat black;
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .front8 {
+  background: url(../img/cards/card9.png) no-repeat black;
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .front9 {
+  background: url(../img/cards/card10.png) no-repeat black;
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .front10 {
+  background: url(../img/cards/card11.png) no-repeat black;
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .front11 {
+  background: url(../img/cards/card12.png) no-repeat black;
+  background-size: contain;
+  transform: rotateY( 180deg );
+}
+
+.card .back0 {
+  background: url(../img/backs/back1.png) no-repeat;
+  background-size: contain;
+}
+
+.card .back1 {
+  background: url(../img/backs/back2.png) no-repeat;
+  background-size: contain;
+}
+
+.card .back2 {
+  background: url(../img/backs/back3.png) no-repeat;
+  background-size: contain;
+}
+
+.card .back3 {
+  background: url(../img/backs/back4.png) no-repeat;
+  background-size: contain;
+}
+
+.card.flipped {
+  transform: rotateY( 180deg );
+}
+
+.message {
+  position: absolute;
+  margin:0 auto;
+  width: 100%;
+  visibility: hidden;
+  text-align: center;
+}
+
+.message h2 {
+  text-align: center;
+}
+
+.records {
+  min-width: fit-content;
+  width:5%;
+  margin: 2% auto;
+  text-align: left;
+}
+
+.win {
+  visibility: hidden;
+}
+
+.lose {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  list-style-position: inside;
+  font-size: 1.2rem;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  top: 55%;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 2% 12.5%;
+  height: 5%;
+  width: 20%;
+  background: rgb(202, 7, 7);
+  padding: 2%;
+}

@@ -1,0 +1,165 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  background: url("../img/menu_background.png") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: fit-content;
+}
+
+section {
+  display: block;
+  position: relative;
+  top:60%;
+  background: rgba(255, 255, 255, 0.685);
+  padding: 2.618rem 0;  
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  width: 60%;
+  /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  height: 50%;
+  min-height: 500px;
+}
+
+h1 {
+  font-size: 2.618rem;
+  display: block;
+  color: rgb(202, 7, 7);
+}
+
+h2, a {
+  font-size: 1.618rem;
+}
+
+p, li {
+  font-size: 1rem;
+}
+
+ol, ul {
+  list-style-position: inside;
+}
+
+button {
+  font-weight: bold;
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+}
+
+a, .submit {
+  display: inline-block;
+  position: relative;
+  top: 55%;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 2% auto;
+  height: 5%;
+  width: 20%;
+  background: rgb(202, 7, 7);
+  padding: 2%;
+}
+
+aside {
+  margin: 40rem 0;
+  width: 18%;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.685);
+  min-height: 30%;
+}
+
+aside:nth-child(odd) {
+  float: left;
+}
+
+aside:nth-child(even) {
+  float: right;
+}
+
+aside button {
+  width: 45%;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+.difficulty button {
+  width: 70%;
+  height: 55px;
+  margin: 5% 1%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside img {
+  width: 100%;
+  height: auto;
+}
+
+aside li {
+  margin: 0 auto;
+}
+
+aside button:focus {
+  outline-color: rgb(202, 7, 7);
+}
+
+section button {
+  font-size: 1.618rem;
+  border-radius: 10px;
+  width: 20%;
+  background: rgb(202, 7, 7);
+  border-color: rgba(202, 7, 7, .7);
+}
+
+section button:focus {
+  outline-style: none;
+}
+
+form {
+  visibility: hidden;
+  left: 20%;
+  position: absolute;
+  display: block;
+  top:60%;
+  background: rgb(255, 255, 255);
+  padding: 2.618rem 0;  
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  width: 60%;
+  height: 50%;
+  min-height: 500px;
+}
+
+.visible {
+  visibility: visible;
+}
+
+input {
+  text-align: center;
+  display: inline-block;
+  height: 2rem;
+  width: 38%;
+  margin: 2.5rem 20%;
+  border-radius: 10px;
+  border-style: outset;
+}
+
+input:focus {
+  border-style: inset;
+  outline: none;
+}
